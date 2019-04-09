@@ -1,0 +1,88 @@
+/**
+ * ************************************************************
+ *************************Unused Content***********************
+ * ************************************************************
+ */
+/**
+ * Alert alert = new Alert(AlertType.INFORMATION);	// Creates an alert telling
+ * the user that /	alert.setTitle("Save");	// the image has been saved
+ * alert.setHeaderText(null);	// alert.setContentText("Image saved");	//
+ * alert.showAndWait();*
+ */							// 
+//File file = new File(filec);
+//Image image = new Image(file.toURI().toString());
+//File file = new File("Tropical.jpg");
+//Image image = new Image(file.toURI().toString());
+//ImageView iv = new ImageView(image);
+//DropShadow ds = new DropShadow(15, Color.DARKGREEN);
+//iv.setEffect(ds);
+//final ColorAdjust monochrome = new ColorAdjust(0, -1, 0, 0);
+//iv.setEffect(monochrome);
+//String fileType = monochrome.equals(iv.getEffect()) ? "Color" : "Monochrome";
+//scene.setFill(Color.RED);
+/**
+ * ***********************************************************
+ *************************Hacky Stuff B)**********************
+ * ***********************************************************
+ */
+//	imageView.setTranslateY(90);	// Moves the image further into the program,
+//   imageView.setTranslateX(80);	// away from the menu bar
+//window.getChildren().add(imageView);
+//File defaultIMG = new File("Tropical.jpg");			// This sets a default image to load on startup, which can be changed later.
+//Image image = new Image(null);
+//effect = new ColorAdjust(effect.getHue(), effect.getSaturation(),	// loaded image
+//		effect.getBrightness(), 0.6);								//
+//imageView.setEffect(effect);//
+/**
+ * Tom's second window attempt*
+ */
+
+/*
+ * Attempts at a dropper
+
+        //double size = Double.parseDouble(brushSize.getText());
+
+        //PixelReader reader = canvas.snapshot().
+        //PixelReader reader = canvas.snapshot(new SnapshotParameters(), null).getPixelReader();
+
+        //colorpicker = new ColorPicker(selection);
+        //toolbar.getItems().remove(
+                
+        //);
+        
+        //if (eraser.isSelected()) {
+            //graphicsContext.clearRect(x, y, size, size);
+        //} else {
+            //graphicsContext.setFill(colorpicker.getValue());
+            //graphicsContext.fillRect(x, y, size, size);
+        //}
+
+ */
+
+
+
+     /**   private void startBrushHandler() {
+
+        loop = new AnimationTimer() {
+
+            @Override
+            public void handle(long now) {
+
+                if( mousePressed) {
+
+                    // try this
+                    // graphicsContext.drawImage( brush, mouseLocation.getX() - brushWidthHalf, mouseLocation.getY() - brushHeightHalf);
+
+                    // then this
+                   //bresenhamAlgorithm(prev.getX(), prev.getY(), mouseLocation.getX(), mouseLocation.getY());
+
+                }
+
+                prev = new Point2D( mouseLocation.getX(), mouseLocation.getY());
+
+            }
+        };
+
+        loop.start();
+
+    } **/
